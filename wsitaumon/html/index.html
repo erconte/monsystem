@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItauMon - Dashboard</title>
+
+
+    <script type="text/javascript" src="usuario.js"></script>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container div1">
+        <div class="row">
+            <div class="col-12">
+                <h4 style="text-align: center;">EventDash - Soluções em Dashboard</h4> 
+                <p style="text-align: center;">Powered by Lost a Lot Squad</p>
+            </div>
+        </div>
+
+         <hr>
+
+
+        <form>
+            <div class="form-group">
+                <label for="email">Digite seu usuário</label>
+                <input id="txtemail" type="email" class="form-control" aria-describedby="emailHelp"
+                    placeholder="Digite seu email ou RACF">
+            </div>
+
+            <div class="form-group">
+                <label for="InputPassword1">Digite sua senha</label>
+                <input id="txtsenha" type="password" class="form-control" placeholder="Senha: ">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartilhe seus dados</small>
+            </div>
+
+            <button onclick="logar()" type="button" class="btn btn-outline-secondary">Submit</button>
+          
+        </form>
+
+        <hr>
+
+        <div>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="imagens/dash1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Facilidade</h5>
+                        <p class="card-text">Tenha o controle de sua empresa com relatórios On-Time.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/dash2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praticidade</h5>
+                        <p class="card-text">Tenha o controle de sua empresa na palma da sua mão e de onde você estiver.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/dash3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Personalização</h5>
+                        <p class="card-text">Personalize seu dashboard conforme suas necessidades.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+       
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

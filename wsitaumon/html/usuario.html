@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Usuário</title>
+
+    <script type="text/javascript" src="usuario.js"></script>
+  
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+
+<body onload="exibirusuario()">
+
+    <div class="container div1">
+        <div class="row">
+            <div class="col-12">
+                <h3 style="text-align: center;">Painel de Controle</h3>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div id="foto" class="col-2">
+            </div>
+
+            <div id="dados" class="col-3">
+            </div>
+
+            <div class="col-7" align="right">
+                <button onclick="LogOff()" type="button" class="btn btn-outline-secondary">Logout</button>
+            </div>
+
+
+
+        </div>
+
+        <hr>
+
+        <p>Selecione o tipo de relatório:</p>
+        <button onclick="window.location='periodo.html'" type="button" class="btn btn-outline-secondary">Eventos por periodo</button>
+        <button onclick="window.location='alarmes.html'"  type="button" class="btn btn-outline-secondary">Listar todos os Alarmes</button>
+        <!--Chamei a pagina alarmes apenas clicando no botão-->
+
+<br><br>
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+  /*Criando estilos para os comandos nativos em HTML*/
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color:rgb(82, 79, 81);
+ }
+ h2{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 24px;
+     font-weight: bold;
+     color:rgb(82, 79, 81);
+  }
+
+  h3{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 22px;
+     font-weight: bold;
+     color:rgb(82, 79, 81);
+  }
+
+  h4{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color:rgb(82, 79, 81);
+  }
+
+  h5{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     color:rgb(82, 79, 81);
+  }
+
+ p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size:14px;
+     color:rgb(82, 79, 81);
+ }
+
+ body{
+     background-color: rgb(229, 240, 252);
+ }
+
+ /*Criando uma classe de estilo para a nossa página*/
+ .observação{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 10px;
+     color:grey;
+ }
+
+ .menu{
+     font-size: 16px;
+     font-weight: bolder;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:rgb(4, 4, 59);
+ }
+
+ /*criar um padrão de cores para o bootstrap */
+
+ .container{
+     border: 1px solid black;
+ }
+
+ .div1{
+     background-color: rgb(238, 239, 241);
+
+ }
+
+ .div2{
+     background-color: blue;
+ }
+
+ .div3{
+     background-color: green;
+ }
+
+ .div4{
+     background-color:red;
+ }
